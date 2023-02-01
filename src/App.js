@@ -11,6 +11,18 @@ function App() {
         description="Your AI assistant"
         price={59.99}
       />
+
+      <Product
+        name="Iphone 100x Plus"
+        description="The best iPhone"
+        price={999}
+      />
+
+      <Product
+        name="Macbook Pro"
+        description="Your favourite computer"
+        price={2259.99}
+      />
     </div>
   );
 }
