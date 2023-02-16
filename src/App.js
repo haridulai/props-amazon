@@ -1,10 +1,11 @@
-import "./App.css";
+import styles from "./App.module.css";
 import Product from "./Product";
 
 function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
+      <h2 className={styles.error}>This is an error</h2>
       {/* Product name, description, price */}
       <Product
         name="Amazon Echo"
